@@ -1,29 +1,26 @@
 /*!
-*    @file Config.h 
+*    @file lucidgloves-firmware.ino 
 *
 *    @section Introduction
 *
-*    This file is a part of the LucidGloves Firmware Version 2 ported to PlatformIO. It is used to operate
+*    This file is a part of the LucidGloves Firmware Version 2. It is used to operate
 *    the LucidVR haptic gloves.
 *
 *    This specific header is used as a configuration file. Follow the instructions in the comments to set up you device.
-*    Remember that configuring things like the MCU (development board) or the terminal (serial monitor) speed is done in the platformio.ini file.
 *
 *    @section Dependencies
 *
-*    1) Arduino.h - the Arduino framework. Is already present inside of PlatformIO.
+*    1) lucidgloves-firmware.h - project configuration file, should be present within the project.
 *
 *    @author Author
 *
 *    Software developed by Lucas_VRTech - LucidVR <lucidvrtech.com>.
-*    Ported to PlatformIO by Jakub Nagy <https://github.com/Jakub-Nagy>.
+*    Modified by Jakub Nagy <https://github.com/Jakub-Nagy>.
 *
 *    @section Documentation
 *
 *    Documentation and the source repo for this project can be found at <https://github.com/LucidVR/lucidgloves-hardware>
 */
-
-#include <Arduino.h>
 
 
 // Device based configuration 

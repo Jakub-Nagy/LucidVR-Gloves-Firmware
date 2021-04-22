@@ -1,47 +1,26 @@
 /*!
-*    @file main.cpp 
+*    @file _main.ino 
 *
 *    @section Introduction
 *
-*    This file is a part of the LucidGloves Firmware Version 2 ported to PlatformIO. It is used to operate
+*    This file is a part of the LucidGloves Firmware Version 2. It is used to operate
 *    the LucidVR haptic gloves.
 *
 *    This is the main runtime file of this program. It includes and invokes all the project classes.
 *
 *    @section Dependencies
 *
-*    1) Arduino.h - the Arduino framework. Is already present inside of PlatformIO.
-*    2) Config.h - project configuration file, should be present within the project.
-*    2) Input.h - should be present within the project.
-*    2) Encoding.h - should be present within the project.
-*    2) Gesture.h - should be present within the project.
-*    2) ICommunication.h - should be present within the project.
-*    2) SerialBTCommunication.h - should be present within the project.
-*    2) SerialCommunication.h - should be present within the project.
+*    1) lucidgloves-firmware.h - project configuration file, should be present within the project.
 *
 *    @author Author
 *
 *    Software developed by Lucas_VRTech - LucidVR <lucidvrtech.com>.
-*    Ported to PlatformIO by Jakub Nagy <https://github.com/Jakub-Nagy>.
+*    Modified by Jakub Nagy <https://github.com/Jakub-Nagy>.
 *
 *    @section Documentation
 *
 *    Documentation and the source repo for this project can be found at <https://github.com/LucidVR/lucidgloves-hardware>
 */
-
-// Arduino framework
-#include <Arduino.h>
-
-// Config file
-#include <Config.h>
-
-// Project dependencies
-#include <Input.h>
-#include <Logic/Encoding.h>
-#include <Logic/Gesture.h>
-#include <Communications/ICommunication.h>
-#include <Communications/SerialBTCommunication.h>
-#include <Communications/SerialCommunication.h>
 
 
 #define ALWAYS_CALIBRATING CALIBRATION_LOOPS == -1
